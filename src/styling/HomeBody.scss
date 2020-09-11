@@ -1,0 +1,104 @@
+.landing {
+  padding: 10px 50px;
+  font-family: Calibri Light;
+  height: 100vh;
+  text-align: center;
+}
+.call-to-action {
+  align-items: center;
+}
+.call-to-action button {
+  background-color: transparentize(yellow, 1);
+  border: solid 2px yellow;
+  border-radius: 10px;
+  color: yellow;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.call-to-action button:hover {
+  background-color: yellow;
+  color: purple;
+}
+/* trying to override default Link styling for text colour */
+.react-router-dom-links {
+  color: yellow;
+}
+
+
+.ad {
+  background: white;
+  color: purple;
+  padding: 50px;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+}
+.grid-container div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+/*icons*/
+.box {
+  align-items: center;
+}
+.icon {
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#aplus {
+  background-image: url('../images/aplus.jpg');
+}
+#gta {
+  background-image: url('../images/gta.jpg');
+}
+#xp {
+  background-image: url('../images/xp.jpg');
+}
+@media only screen and (max-width: 800px) {
+  .grid-container {
+    display: block;
+  }
+}
+
+/*blog subscription section*/
+.blog-mailing-list {
+  background: purple;
+
+  padding: 50px;
+  text-align: center;
+}
+.link-to-blog {
+  color: white;
+  text-decoration: none;
+}
+.blog-mailing-list > form > input {
+  padding: 15px 20px;
+}
+.mailing-button {
+  background-color: yellow;
+  border: none;
+  color: purple;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.mailing-button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.1), 0 17px 50px 0 rgba(0, 0, 0, 0.1);
+  color: black;
+}

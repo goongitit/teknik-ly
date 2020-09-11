@@ -3,9 +3,11 @@ import '../styling/Footer.scss'
 //import custom components/pages
 
 function Footer () {
-  return <div>
+  return <div className='footer'>
     <ul>
-      <li>&copy;2020 <a href='/'>Teknik.ly</a> All Rights Reserved.</li>
+      <li>&copy;2020</li>
+      <li><a href='/'>Teknik.ly</a></li>
+      <li>All Rights Reserved.</li>
       <li><a href='/about'>About Us</a></li>
       <li><a href='/blog'>Blog</a></li>
       <li><a href='/privacy'>Privacy Policy</a></li>
