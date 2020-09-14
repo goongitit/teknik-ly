@@ -5,7 +5,7 @@ export default function About () {
   return <div className='about'>
     <h1>Our Story</h1>
     <p>
-      
+      Seeing
     </p>
     <p>
       We all know that the IT field is an ever-expanding, constantly-evolving
