@@ -6,7 +6,7 @@ export default function About () {
     <h1>Our Story</h1>
     <p>
       In an ever changing world, where technology is only accelerating changes
-      in how we work, 
+      in how we work, freelance work is the way forward.
     </p>
     <p>
       We all know that the IT field is an ever-expanding, constantly-evolving
