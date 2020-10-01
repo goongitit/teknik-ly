@@ -5,7 +5,8 @@ export default function About () {
   return <div className='about'>
     <h1>Our Story</h1>
     <p>
-      Seeing
+      In an ever changing world, where technology is only accelerating changes
+      in how we work, 
     </p>
     <p>
       We all know that the IT field is an ever-expanding, constantly-evolving
