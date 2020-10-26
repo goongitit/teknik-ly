@@ -10,11 +10,11 @@ function Landing () {
       <Link className='no-underline' to='/hiresignup'><button>New to Teknik.ly? Sign up now!</button></Link>
       <br /><br /><br />
       <h2>
-        Want work in your field? On your on <a href='/linkedin'>schedule</a>, and terms?
-        <a className='no-underline react-router-dom-links' href='/jobsignup'>  Become a Teknician!</a>
+        Want work in your field? On your on <a className='react-router-dom-links' href='/linkedin'>schedule</a>, and terms?
+        <span> </span><a className='react-router-dom-links' href='/jobsignup'>Become a Teknician!</a>
       </h2>
       <button>Teknician Login</button>
-      <button>New to Teknik.ly? Sign up now!</button>
+      <Link className='no-underline' to='/linkedin'><button>New to Teknik.ly? Sign up now!</button></Link>
     </div>
   </div>
 }

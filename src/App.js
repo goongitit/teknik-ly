@@ -9,7 +9,7 @@ import Landing from './components/Landing'
 import Advertisement from './components/Advertisement'
 import SubscribeBlog from './components/SubscribeBlog'
 
-import LinkedInPage from './components/LinkedInPage'
+import LinkedInPage from './pages/LinkedInPage'
 //pages
 import Privacy from './pages/Privacy'
 import About from './pages/About'
